@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</head>
+<body>
+  <div class="phone">
+    <div class="header">
+        <button class="back-button">
+   <iconify-icon icon="si:chevron-left-fill"></iconify-icon>
+</button>
+  <h2>Shopping Cart</h2>
+  <div class="cart-count">
+    <iconify-icon icon="mdi:shopping-outline" class="cart-icon"></iconify-icon>
+    <span class="count-icon">5</span>
+  </div>
+</div>
+
+    <div class="items">
+      <div class="item">
+        <div class="thumb">
+          <img src="https://tv-project.com/media/catalog/product/cache/81b83257165667232056b0d35b6c7613/c/a/canon-xf605-foto-1.jpg" alt="Video Camera">
+        </div>
+        <div class="details">
+          <h3>Video Camera</h3>
+          <small>Code #247890</small>
+          <div class="price-row">
+            <div class="price">$849.90</div>
+            <div class="qty">
+              <iconify-icon icon="mdi:minus-circle-outline"></iconify-icon>
+              <span>1</span>
+              <iconify-icon icon="mdi:plus-circle-outline"></iconify-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="thumb">
+          <img src="https://content2.rozetka.com.ua/goods/images/big/586481976.jpg" alt="Walkman">
+        </div>
+        <div class="details">
+          <h3>Walkman</h3>
+          <small>Code #367381</small>
+          <div class="price-row">
+            <div class="price">$249.90</div>
+            <div class="qty">
+              <iconify-icon icon="mdi:minus-circle-outline"></iconify-icon>
+              <span>2</span>
+              <iconify-icon icon="mdi:plus-circle-outline"></iconify-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="thumb">
+          <img src="https://img.mta.ua/image/cache/data/foto/z747/747952/photos/AudioTechnica-ATLP60X-01-600x600.jpg" alt="Turntable">
+        </div>
+        <div class="details">
+          <h3>Turntable</h3>
+          <small>Code #589001</small>
+          <div class="price-row">
+            <div class="price">$1449.90</div>
+            <div class="qty">
+              <iconify-icon icon="mdi:minus-circle-outline"></iconify-icon>
+              <span>4</span>
+              <iconify-icon icon="mdi:plus-circle-outline"></iconify-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="thumb">
+          <img src="https://images.prom.ua/1556160624_w640_h640_komplekt-gostevyh-pejdzherov.jpg" alt="Pager">
+        </div>
+        <div class="details">
+          <h3>Pager</h3>
+          <small>Code #567190</small>
+          <div class="price-row">
+            <div class="price">$99.90</div>
+            <div class="qty">
+              <iconify-icon icon="mdi:minus-circle-outline"></iconify-icon>
+              <span>2</span>
+              <iconify-icon icon="mdi:plus-circle-outline"></iconify-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="checkout">
+      <div class="voucher">
+        <input type="text" placeholder="VOUCHER CODE">
+        <div class="total">TOTAL: $2649.60</div>
+      </div>
+      <button class="btn-main">Checkout</button>
+      <a href="paypal_checkout.html" class="btn-paypal" style="text-align: center; line-height: 1; text-decoration: none;">
+    Checkout with PayPal
+</a>
+    </div>
+  </div>
+</body>
+</html>
