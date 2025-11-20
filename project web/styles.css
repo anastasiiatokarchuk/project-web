@@ -61,6 +61,19 @@
   gap: 4px;
   cursor: pointer;
 }
+.back-button {
+  border: none;
+  padding: 0;
+  background-color: #F8F8F8;
+  cursor: pointer;
+  outline: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative; 
+}
 
 .cart-count .cart-icon {
   font-size: 20px;
@@ -71,7 +84,7 @@
   background-color: #ff4200;
   color: white;
   border-radius: 50%;
-  padding: 3px 6px;
+  padding: 3px 6px;   
   font-size: 13px;
   font-weight: bold;
   line-height: 1;
@@ -98,7 +111,6 @@
     }
     .thumb {
       width: 60px;
-      height: 60px;
       border-radius: 10px;
       margin-right: 10px;
       overflow: hidden;
@@ -145,7 +157,7 @@
 }
 
     .qty iconify-icon {
-  font-size: 20px;
+  font-size: 23px;
   color: #333;
   cursor: pointer;
   position: relative;
@@ -176,6 +188,7 @@
       justify-content: space-between;
       gap: 10px;
       margin-bottom: 10px;
+      text-align: center;
     }
     .voucher input {
       flex: 1;
@@ -186,12 +199,13 @@
       color: rgba(255, 251, 251, 0.795);
       padding: 0px 12px;
       border-radius: 10px;
-      font-size: 13px;
+      font-size: 14px;
       outline: none;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      text-align: center;
+  line-height: 40px;
     }
+
     .voucher input::placeholder {
       color: rgba(255, 255, 255, 0.8);
     }
