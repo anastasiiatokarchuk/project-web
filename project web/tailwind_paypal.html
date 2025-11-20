@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Оплата через PayPal — Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</head>
+<body class="antialiased">
+  <div class="phone h-screen bg-white shadow-xl overflow-hidden relative flex flex-col justify-between">
+
+    <!-- HEADER -->
+    <div class="header flex items-center justify-between p-4 border-b border-gray-200">
+      <a href="#" class="back-button w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200" onclick="history.back(); return false;" aria-label="back">
+        <iconify-icon icon="si:chevron-left-fill" class="text-sm"></iconify-icon>
+      </a>
+
+      <h2 class="text-sm font-medium">Payment</h2>
+
+      <div class="w-7"></div>
+    </div>
+
+    <!-- PAGE CONTENT -->
+    <div class="page-content flex-1 flex flex-col items-center justify-between overflow-y-auto">
+
+      <div class="payment-card bg-[#f0f0f0] rounded-xl p-6 w-11/12 shadow-md mt-8 text-center">
+        <iconify-icon icon="mdi:credit-card-fast" class="paypal-icon-large text-4xl text-[#0070BA] mb-1"></iconify-icon>
+        <div class="card-title text-lg font-bold text-[#283d81] mb-2 leading-tight">Switching to PayPal payments</div>
+
+        <div class="amount-display text-2xl font-bold text-[#ff4200] my-4 border-b border-gray-200 pb-2">$2649.60</div>
+
+        <div class="status-message text-sm text-gray-600 mt-2">Your order is awaiting confirmation on the secure PayPal page.</div>
+      </div>
+
+      <a href="#" class="btn-proceed-payment bg-[#ff4200] hover:bg-[#e03a00] text-white px-6 py-3 rounded-lg font-bold text-lg mt-6 max-w-[14rem] w-11/12 text-center">Proceed to payment</a>
+
+      <div class="text-xs mt-3 mb-8">If you were not automatically redirected, click the button above.</div>
+
+    </div>
+
+    <!-- CHECKOUT ACTIONS -->
+    <div class="checkout-actions bg-gradient-to-t from-[#1d042f] to-[#221230] p-6 rounded-t-2xl flex gap-3">
+      <a href="tailwind.html" class="btn-secondary flex-1 py-3 rounded-lg border border-[#a084b6] text-white text-center">Return to cart</a>
+      <a href="tailwind.html" class="btn-cancel flex-1 py-3 rounded-lg bg-[#2fdc76] text-white text-center">Cancel Order</a>
+    </div>
+
+  </div>
+</body>
+</html>
